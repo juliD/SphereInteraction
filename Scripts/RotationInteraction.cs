@@ -15,10 +15,6 @@ public class RotationInteraction : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         big.transform.position = small.transform.position;
-        big.transform.rotation = small.transform.rotation;
-         //big.transform.rotation = new Quaternion(small.transform.rotation.x * -1.0f,
-         //                                   small.transform.rotation.y,
-         //                                   small.transform.rotation.z * -1.0f,
-         //                                   small.transform.rotation.w * -1.0f);
+        big.transform.rotation = small.transform.rotation; //spiral sphere has aready inverted y axis? 
     }
 }
