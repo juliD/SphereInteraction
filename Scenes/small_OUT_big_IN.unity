@@ -303,7 +303,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 7d426676b8561d24e8100fecb3830020, type: 2}
+  - {fileID: 2100000, guid: 9abc6b760799af946a7de76403fd4bbd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -352,6 +352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1533904903}
   - component: {fileID: 1533904902}
+  - component: {fileID: 1533904904}
   m_Layer: 0
   m_Name: Interaction Handler
   m_TagString: Untagged
@@ -365,7 +366,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1533904901}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2cbba46f4d7051b44805004a5c38260c, type: 3}
   m_Name: 
@@ -385,6 +386,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1533904904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533904901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7752c8cb1d97354887a5d428ae685d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  small: {fileID: 550124149}
+  big: {fileID: 1842979287}
 --- !u!1 &1842979287
 GameObject:
   m_ObjectHideFlags: 0
