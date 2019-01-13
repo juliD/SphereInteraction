@@ -1,0 +1,126 @@
+-----------
+Current Time:18.44611; Task:3 begins
+-----------
+Current Time:61.72404; Task:3 begins
+-----------
+Current Time:1.765411; Task:4 begins
+-----------
+Current Time:241.9292; Task:4 begins
+-----------
+Current Time:3.683618; Task:4 begins
+-----------
+Current Time:93.33107; Task:4 begins
+-----------
+Current Time:216.2612; Task:4 begins
+-----------
+Current Time:310.6184; Task:4 begins
+-----------
+Current Time:312.6255; Task:4 begins
+-----------
+Current Time:317.0594; Task:4 begins
+-----------
+Current Time:373.8263; Task:4 begins
+-----------
+Current Time:377.0225; Task:4 begins
+-----------
+Current Time:516.8583; Task:4 begins
+-----------
+Current Time:524.02; Task:4 begins
+-----------
+Current Time:628.4567; Task:4 begins
+-----------
+Current Time:631.6795; Task:4 begins
+-----------
+Current Time:687.2024; Task:4 begins
+-----------
+Current Time:821.7382; Task:4 begins
+-----------
+Current Time:841.1115; Task:4 begins
+-----------
+Current Time:78.14977; Task:4 begins
+-----------
+Current Time:599.5784; Task:4 begins
+-----------
+Current Time:603.0491; Task:4 begins
+-----------
+Current Time:666.3987; Task:4 begins
+-----------
+Current Time:671.8116; Task:4 begins
+-----------
+Current Time:1008.747; Task:1 begins
+-----------
+Current Time:1453.444; Task:1 begins
+-----------
+Current Time:1456.133; Task:1 begins
+-----------
+Current Time:1471.658; Task:1 begins
+-----------
+Current Time:2318.151; Task:1 begins
+-----------
+Current Time:2602.626; Task:1 begins
+-----------
+Current Time:2683.745; Task:1 begins
+-----------
+Current Time:2684.775; Task:1 begins
+-----------
+Current Time:2978.966; Task:1 begins
+-----------
+Current Time:2979.984; Task:1 begins
+-----------
+Current Time:2981.694; Task:1 begins
+-----------
+Current Time:2984.031; Task:1 begins
+-----------
+Current Time:3258.178; Task:1 begins
+-----------
+Current Time:3277.187; Task:1 begins
+-----------
+Current Time:3279.724; Task:1 begins
+-----------
+Current Time:3281.885; Task:1 begins
+-----------
+Current Time:3308.387; Task:1 begins
+-----------
+Current Time:3346.717; Task:1 begins
+-----------
+Current Time:3396.931; Task:1 begins
+-----------
+Current Time:3629.49; Task:1 begins
+-----------
+Current Time:3643.985; Task:1 begins
+-----------
+Current Time:3930.163; Task:2 begins
+-----------
+Current Time:4012.561; Task:2 begins
+-----------
+Current Time:4015.388; Task:2 begins
+-----------
+Current Time:4016.615; Task:2 begins
+-----------
+Current Time:4439.8; Task:2 begins
+-----------
+Current Time:4443.024; Task:2 begins
+-----------
+Current Time:4801.073; Task:2 begins
+-----------
+Current Time:4805.536; Task:2 begins
+-----------
+Current Time:5051.939; Task:2 begins
+-----------
+Current Time:5055.187; Task:2 begins
+-----------
+Current Time:5254.256; Task:2 begins
+-----------
+Current Time:5257.507; Task:2 begins
+-----------
+Current Time:5392.881; Task:2 begins
+-----------
+Current Time:5460.193; Task:2 begins
+-----------
+Current Time:5468.96; Task:2 begins
+-----------
+Current Time:5738.707; Task:2 begins
+-----------
+Current Time:5741.971; Task:2 begins
+-----------
+Current Time:5761.639; Task:2 begins

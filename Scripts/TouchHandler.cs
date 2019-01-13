@@ -5,30 +5,38 @@ using UnityEngine;
 
 public class TouchHandler : MonoBehaviour
 {
-    public Camera cam;
+    
     private Renderer small;
     private Renderer big;
+    public GameObject hand;
+    public GameObject small_mesh;
 
     void Start()
     {
-        cam = GetComponent<Camera>();
         small = GameObject.Find("Small Sphere").GetComponent<Renderer>();
         big = GameObject.Find("Big Sphere").GetComponent<Renderer>();
     }
 
     void Update()
     {
-        if (!Input.GetMouseButton(0))
-            return;
-
-        RaycastHit hit;
-        if (!Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out hit,100.0f))
+        Debug.Log(small);
+        if (Vector3.Distance(small_mesh.transform.position, hand.transform.position) > 0.5)
         {
+            Debug.Log("Too far apart");
+            return;
+        }
+        Debug.Log("Close enough");
+        
+        RaycastHit hit;
+        if (!Physics.Raycast(hand.transform.position, hand.transform.position-small_mesh.transform.position, out hit))
+        {
+            Debug.DrawLine(hand.transform.position, small_mesh.transform.position, Color.cyan);
             Debug.Log("No raycast hit");
             small.material.SetFloat("_Radius", 0.0f);
             big.material.SetFloat("_Radius", 0.0f);
             return;
         }
+        Debug.DrawLine(hand.transform.position, hit.point, Color.red);
         Renderer rend = hit.transform.GetComponent<Renderer>();
         MeshCollider meshCollider = hit.collider as MeshCollider;
         Debug.Log("x: "+hit.textureCoord.x+" y:"+ hit.textureCoord.y);

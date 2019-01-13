@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.IO;
 
 public class RotationInteraction : MonoBehaviour {
 
@@ -10,10 +12,22 @@ public class RotationInteraction : MonoBehaviour {
     public float offset = 20;
     private int old_id;
 
+    private float time_stamp;
+    private string path;
+
+    public float Time_Stamp()
+    {
+        return time_stamp;
+
+    }
+
 	// Use this for initialization
 	void Start () {
         old_id = scene_id;
         change_scene();
+
+        time_stamp = 0f;
+
     }
 	
 	// Update is called once per frame
@@ -43,7 +57,7 @@ public class RotationInteraction : MonoBehaviour {
                 Debug.LogError("Invalid scene ID");
                 break;
         }
-            
+        time_stamp += Time.deltaTime;  
 
          
     }
